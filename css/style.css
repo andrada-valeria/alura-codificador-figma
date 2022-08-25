@@ -15,11 +15,10 @@ main{
     margin-bottom: 50px;
 }
 .robotina{
-  
+  position: relative;
     width:10%;
     float: right;
     
-
 }
 
 .robotina:hover{
