@@ -1,0 +1,84 @@
+:root{
+    --background-color:#E5E5E5;
+    --icono-exclamacion-color:#67808E;
+    --azul-oscuro:#0A3871;
+    --gris-oscuro:#343A40;
+    --gris-claro:#495057;
+}
+
+body{
+    background-color: var(--background-color);
+}
+main{
+    display: flex;
+    margin-left: 80px;
+    margin-bottom: 50px;
+}
+.robotina{
+  
+    width:10%;
+    float: right;
+    
+
+}
+
+.robotina:hover{
+    transform: scale(2);
+}
+
+.input-texto{
+    margin-top: 90px;
+}
+.mensaje{
+position: relative;
+margin-top: 90px;
+margin-left: 90px;
+background-image: url("/img/Muñeco.png");
+background-repeat: no-repeat;
+background-position: 18px;
+background-size: 300px;
+}
+.encriptar{
+    padding: 8px;
+    background-color: darkblue;
+    color: white;
+    border-radius: 5px;
+  
+  }
+
+  .encriptar:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid #3a2770;
+  }
+
+.desencriptar{
+    margin-left: 30px;
+    border-radius: 5px;
+    padding: 8px;
+}
+.desencriptar:hover{
+    background-color: rgb(192, 203, 219);
+    color: black;
+    border: 2px solid #2c35ad;
+
+}
+.informacion{
+    font-size:15px
+}
+
+.copiar{
+    border-radius: 5px;
+    padding: 8px;
+}
+.copiar:hover{
+    background-color: rgb(123, 175, 196);
+    color: black;
+    border: 2px solid #2c60ad;
+}
+footer{
+    color: var(--icono-exclamacion-color) ;
+    background-color: var(--azul-oscuro);
+   text-align: center;
+    padding: 10px;
+}

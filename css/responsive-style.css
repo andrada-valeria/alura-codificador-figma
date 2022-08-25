@@ -1,0 +1,12 @@
+@media (max-width: 600px) {
+    
+    main{
+        display:  inline-block;
+
+    }
+    .mensaje{
+        position: relative;
+        margin-top: 90px;
+        margin-left: 5px;
+}
+}
