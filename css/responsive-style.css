@@ -1,0 +1,33 @@
+@media (max-width: 700px) {
+    
+  
+    main{
+        display: table-caption;
+        margin-left: 20px;
+        margin-bottom: 30px;
+    }
+ header{
+     display: flex;
+ }
+  
+    .robotina:hover{
+  
+        width:10%;
+        float: right;
+        display: url("https://user-images.githubusercontent.com/55536560/108715187-175f8680-754d-11eb-8a6d-62be6f7f857e.gif");
+        
+    }
+  section{
+     height: auto;
+     width: auto;
+      
+  }  
+    .mensaje{
+        position: relative;
+        margin-top: 90px;
+        margin-left: 5px;
+}
+footer{
+    position: relative;
+    }
+}
